@@ -1,5 +1,6 @@
 import {atom, useRecoilState, useRecoilValue} from 'recoil'
 
+//The key needs to be unique between atoms
 const darkModeAtom = atom({
     key: 'darkMode',
     default: false,
